@@ -5,3 +5,5 @@ config.php
 studio.json
 composer.phar
 /vendor/
+/public/assets/
+/storage/

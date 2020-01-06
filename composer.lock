@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05aa6017d8712412b21395a509b5f52e",
+    "content-hash": "b2d8ff3b9a11a52cd05b7d0b39491ff3",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -216,6 +216,59 @@
             ],
             "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
             "time": "2019-06-07T02:02:10+00:00"
+        },
+        {
+            "name": "csineneo/lang-simplified-chinese",
+            "version": "v0.1.0-beta.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Csineneo/lang-simplified-chinese.git",
+                "reference": "ae4b8cf0a316cf8541636a648d3d37f997ead9c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Csineneo/lang-simplified-chinese/zipball/ae4b8cf0a316cf8541636a648d3d37f997ead9c7",
+                "reference": "ae4b8cf0a316cf8541636a648d3d37f997ead9c7",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.10"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "简体中文语言包",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#fff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "zh-hans",
+                    "title": "简体中文"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Csineneo",
+                    "email": "csineneo@gmail.com",
+                    "homepage": "https://vivaldi.club"
+                }
+            ],
+            "description": "Flarum 简体中文语言包",
+            "keywords": [
+                "Chinsese",
+                "flarum",
+                "locale",
+                "中文"
+            ],
+            "time": "2019-12-30T01:43:51+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -6165,7 +6218,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "csineneo/lang-simplified-chinese": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
