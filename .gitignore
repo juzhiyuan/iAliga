@@ -1,0 +1,7 @@
+Thumbs.db
+.vagrant
+config.php
+.idea
+studio.json
+composer.phar
+/vendor/
